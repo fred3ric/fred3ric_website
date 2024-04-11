@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'anatole'
+
+[params]
+title = "fred3ric d@ta"
+author = "Frederic R."
+description = "Data changes perspective and point of view"
+profilePicture = "images/profiles.png"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/frederic-reinier/"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+[[main]]
+name = "Accomplishments"
+weight = 500
+identifier = "accomplishments"
+
+[[main]]
+name = "Awards"
+weight = 510
+identifier = "awards"
+url = "/awards/"
+parent = "accomplishments"
+
+[[main]]
+name = "Certifications"
+weight = 520
+identifier = "certifications"
+url = "/certifications/"
+parent = "accomplishments"
