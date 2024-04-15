@@ -1,15 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'anatole'
+theme = 'yinyang'
 
 [params]
 title = "fred3ric d@ta"
 author = "Frederic R."
 description = "Data changes perspective and point of view"
 profilePicture = "images/profiles.png"
+mainSections=["posts"]
 
-[[params.socialIcons]]
+[[params.socials]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/frederic-reinier/"
@@ -17,6 +18,10 @@ url = "https://www.linkedin.com/in/frederic-reinier/"
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
+
+[author]
+  name = "Joway"
+  homepage = "https://joway.io/"
 
 [menu]
 
