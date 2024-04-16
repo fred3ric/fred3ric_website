@@ -1,3 +1,6 @@
 [submodule "themes/anatole"]
 	path = themes/anatole
 	url = https://github.com/lxndrblz/anatole.git
+[submodule "themes/yinyang"]
+	path = themes/yinyang
+	url = git@github.com:joway/hugo-theme-yinyang.git
